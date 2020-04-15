@@ -18014,6 +18014,8 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Fade,
 	cr.behaviors.Fade.prototype.cnds.OnFadeOutEnd,
 	cr.system_object.prototype.acts.CreateObject,
+	cr.behaviors.Fade.prototype.cnds.OnFadeInEnd,
+	cr.behaviors.Fade.prototype.acts.SetFadeInTime,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.system_object.prototype.cnds.IsGroupActive,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
