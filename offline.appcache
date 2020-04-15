@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1586967965
+#1586980890
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -10,5 +10,24 @@ bg_small-sheet0.png
 t1-sheet0.png
 t2-sheet0.png
 t3-sheet0.png
+tilemap.png
+player-sheet0.png
+spelgood-sheet0.png
+spedbad-sheet0.png
+ward_no_solid.png
+sspritefor-sheet0.png
+miz-sheet0.png
+paieh-sheet0.png
+caps-sheet0.png
+microscop-sheet0.png
+left_b-sheet0.png
+right_b-sheet0.png
+up-sheet0.png
+icon-16.png
+icon-32.png
+icon-114.png
+icon-128.png
+icon-256.png
+loading-logo.png
 NETWORK:
 *
