@@ -21331,8 +21331,8 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Button,
 	cr.plugins_.Browser,
+	cr.plugins_.Button,
 	cr.plugins_.Sprite,
 	cr.plugins_.Text,
 	cr.plugins_.TextBox,
@@ -21352,9 +21352,13 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 	cr.behaviors.Platform.prototype.acts.SimulateControl,
 	cr.plugins_.Sprite.prototype.acts.SetMirrored,
+	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
+	cr.system_object.prototype.acts.RestartLayout,
+	cr.plugins_.Sprite.prototype.cnds.OnCollision,
+	cr.plugins_.Sprite.prototype.acts.Destroy,
+	cr.system_object.prototype.acts.CreateObject,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.Text.prototype.acts.SetPosToObject,
-	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Browser.prototype.acts.Close,
 	cr.plugins_.Browser.prototype.acts.GoToURL,
 	cr.system_object.prototype.cnds.OnLayoutStart,
